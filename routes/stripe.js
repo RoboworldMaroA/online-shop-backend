@@ -1,6 +1,6 @@
 
 // This is your test secret API key.
-// const stripe = require('stripe')('sk_test_51PA8F305YOJBBrAk9eYXENMZyBEX0bQSUIfDN1wnGTs8BtHI0fwqJaUvM9JaSwJ7rdNEyKXk9gDg91N38cZmLo5e00y5hF9Kuu');
+
 
 require("dotenv").config();
 const stripeKey =  process.env.STRIPE_KEY;
@@ -14,8 +14,7 @@ const router = express.Router();
 
 
   // This is your test secret API key.
-// const stripe = require('stripe')('sk_test_51PA8F305YOJBBrAk9eYXENMZyBEX0bQSUIfDN1wnGTs8BtHI0fwqJaUvM9JaSwJ7rdNEyKXk9gDg91N38cZmLo5e00y5hF9Kuu');
-// const express = require('express');
+
 // const app = express();
 // app.use(express.static('public'));
 
